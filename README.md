@@ -5,9 +5,8 @@ Chemical Equation Balancer is a Python GUI application that automatically balanc
 ## Features
 
 - **Input Interface:** Enter unbalanced chemical equations (reactants and products) via a simple GUI.
-- **Automatic Balancing:** Uses Sympy's linear algebra capabilities to compute the appropriate coefficients.
+- **Automatic Balancing:** Uses Sympy's linear algebra capabilities to compute the appropriate coefficients efficiently and accurately :).
 - **Visual Display:** A custom-drawn table displays the element counts for each compound. Updated numbers are highlighted in sky blue.
-- **Standalone Executable:** Easily build a standalone `.exe` using PyInstaller.
 
 ## Dependencies
 
@@ -18,7 +17,7 @@ Chemical Equation Balancer is a Python GUI application that automatically balanc
 - **Pillow** (PIL) for image processing and integration with Tkinter
 - **PyInstaller** (optional, for creating a standalone executable)
 
-You can install the required libraries using pip:
+You can install the required libraries using pip by going into command prompt (do windows r then type cmd then hit Ok, or use windows search):
 
 ```bash
 pip install sympy pycairo Pillow
